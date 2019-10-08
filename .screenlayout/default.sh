@@ -1,1 +1,1 @@
-/home/jackson/.screenlayout/lendi.sh
+/home/jackson/.screenlayout/laptop.sh
