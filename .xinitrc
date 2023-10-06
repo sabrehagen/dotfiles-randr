@@ -1,4 +1,4 @@
-# Apply x server resources
+# Apply x server config
 xrdb -merge $HOME/.Xresources
 
 # Enable numlock
@@ -9,6 +9,9 @@ xset r rate 180 140
 
 # Map key modifiers
 xmodmap $HOME/.Xmodmap
+
+# Set resolution
+xrandr --size 3840x2160
 
 # Start i3
 exec /usr/bin/i3
