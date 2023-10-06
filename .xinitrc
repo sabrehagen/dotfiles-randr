@@ -1,4 +1,4 @@
-# Load x client configuration
+# Apply x server resources
 xrdb -merge $HOME/.Xresources
 
 # Enable numlock
@@ -9,3 +9,6 @@ xset r rate 180 140
 
 # Map key modifiers
 xmodmap $HOME/.Xmodmap
+
+# Start i3
+exec /usr/bin/i3
