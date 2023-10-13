@@ -13,5 +13,8 @@ xmodmap $HOME/.Xmodmap
 # Set resolution
 xrandr --size 3840x2160
 
+# Start ssh server
+sudo service ssh start
+
 # Start i3
 exec /usr/bin/i3
