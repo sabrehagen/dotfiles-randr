@@ -11,7 +11,7 @@ xset r rate 180 140
 xmodmap $HOME/.Xmodmap
 
 # Set resolution
-xrandr --size 1920x1080
+xrandr --size 3840x2160
 
 # Start ssh server
 sudo service ssh start
